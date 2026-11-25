@@ -15,11 +15,21 @@ Field technicians often work in restricted environments where installing heavy t
 
 ## Quick Usage
 
-Run directly from an elevated or standard PowerShell terminal:
+Run directly from a PowerShell terminal:
 
-```powershell
-# Run network diagnostics
-.\scripts\network-health-check.ps1
+- Network diagnostics: `.\scripts\network-health-check.ps1`
+- Hardware and OS audit: `.\scripts\system-audit.ps1`
 
-# Run hardware and OS audit
-.\scripts\system-audit.ps1
+## Roadmap
+
+- [ ] Linux Bash equivalents (`network-check.sh`, `sys-audit.sh`)
+- [ ] Automated HTML/CSV report export for field service tickets
+- [ ] Localized documentation (`pt-BR`) for Brazilian IT support teams
+
+## Contributing
+
+Contributions, bug reports, and new diagnostic modules are welcome! Feel free to open an issue or submit a pull request.
+
+## License
+
+Distributed under the MIT License. See `LICENSE` for more information.
